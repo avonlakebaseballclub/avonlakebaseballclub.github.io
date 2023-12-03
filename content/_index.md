@@ -30,7 +30,7 @@ Below is an example of the cost for an individual player's kit.
 | Individual Cost:  | $604.50       |
 
 ## Where will your donations **NOT** go?
-Where your money is spent is as important as where it won't be spent. We do not have any paid positions in the non-profit. We are extremely frugal and focuses. The money you donate will end up helping a youth baseball player.
+Where your money is spent is as important as where it won't be spent. We do not have any paid positions in the non-profit. We are extremely frugal and focused. The money you donate will end up helping a youth baseball player.
 
 # Who we are
 The Avon Lake Baseball Club was founded in 2023 by [David Justice](https://www.linkedin.com/in/davidjustice/), an Avon Lake youth travel baseball coach and community member. During his time coaching, David observed firsthand all of the expenses families paid to provide their player(s) with an opportunity to play baseball. He believes that every child should have an opportunity play baseball to the level their talent allows.
