@@ -1,7 +1,46 @@
-{% extends "base.html" %}
+{% extends "juice/templates/index.html" %}
+{% block favicon %}
+    <link rel="icon" type="image/png" href="/imgs/favicon.ico">
+{% endblock favicon %}
+
+{% block head %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QRKQ9NBSLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QRKQ9NBSLN');
+</script>
+{% endblock head %}
+
+{% block hero %}
+<section class="text-center">
+    <!-- <h1 class="heading-text animate__animated animate__jackInTheBox" style="font-size: 50px">
+        Support local youth baseball in Avon Lake, OH
+    </h1> -->
+    <h3 class="title-text">
+        <b>Avon Lake Baseball Club's</b>  is a registered 501(c)(3). It's mission is to provide healthy 
+        activity for children of Avon Lake using the ball field as a classroom to instill discipline, team work, 
+        sportsmanship and fair play, and to establish a set of values to guide them into adulthood.
+    </h3>
+    <div>
+    </div>
+</section>
+<img class="hero-image" style="width: 45%" src="{{ get_url(path="imgs/al_round.png") }}">
+
+<div class="explore-more text"
+     onclick="document.getElementById('welcome-to-gradecoin').scrollIntoView({behavior: 'smooth'})">
+    ⇩ Learn How ⇩
+</div>
+{% endblock hero %}
 
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
+    {{ section.content | safe }}
 {% endblock content %}
+
+{% block footer %}
+<footer>
+    Built with ❤️ for Avon Lake and Youth Baseball
+</footer>
+{% endblock footer %}
