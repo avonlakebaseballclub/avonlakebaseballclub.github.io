@@ -1,1 +1,12 @@
 @import "_hero.scss";
+
+.toc-sticky {
+    border-top: 5px solid var(--primary-text-color);
+}
+
+main {
+    h1, .title-text {
+        border-left: var(--toc-background-color) 8px solid;
+    }
+}
+  

@@ -19,6 +19,7 @@ highlight_code = true
 juice_logo_name = "Avon Lake Baseball Club"
 juice_logo_path = "imgs/al_maroon.png"
 juice_extra_menu = [
+    { title = "Venmo", link = "https://www.venmo.com/u/avonlakebaseballclub"},
     { title = "GitHub", link = "https://github.com/avonlakebaseballclub/www"}
 ]
 juice_exclude_menu = [
