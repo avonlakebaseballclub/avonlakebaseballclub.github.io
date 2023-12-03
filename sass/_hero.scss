@@ -1,6 +1,13 @@
-.hero section {
-    padding: 0 80px;
+.hero {
+    section {
+        padding: 0 80px;
+    }
+
+    .donate-button-container {
+        margin-top: 30px;
+    }
 }
+
 
 @media screen and (max-width: 768px) {
     .hero section {
@@ -10,5 +17,4 @@
     .hero-image {
         display: none;
     }
-
 }

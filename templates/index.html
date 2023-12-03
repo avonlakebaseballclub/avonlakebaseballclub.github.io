@@ -31,6 +31,21 @@
         <b>Avon Lake Baseball Club</b> is a registered 501(c)(3). It's mission is to provide healthy 
         activity for children of Avon Lake using the ball field as a classroom to instill discipline, team work, 
         sportsmanship and fair play, and to establish a set of values to guide them into adulthood.
+        <div id="donate-button-container-hero" class="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'TJAUPXC3636HL',
+            image: {
+            src:'https://pics.paypal.com/00/s/NGEwZjI4YzEtZWM5Ni00MDUzLTg0NDctOTE2NmU0YjA5ZTMw/file.PNG',
+            alt:'Donate with PayPal button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            </script>
+        </div>
     </h3>
     <div>
     </div>
