@@ -27,7 +27,6 @@ Below is an example of the cost for an individual player's kit.
 | Bat bag           | $65.00        |
 | Facilities        | $85.00        |
 | Tournament Fees   | $150.00       |
-| ----------------- | --------------|
 | Individual Cost:  | $604.50       |
 
 ## Where will your donations **NOT** go?

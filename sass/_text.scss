@@ -1,0 +1,59 @@
+h1, .title-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-text-color);
+    margin-bottom: 4px;
+}
+
+h2, .subtitle-text {
+    font-size: 24px;
+    font-weight: bold;
+    border-left: var(--toc-background-color) 4px solid;
+    padding-left: 8px;
+    margin-bottom: 2px;
+}
+
+h3, .subtitle-text {
+    font-size: 18px;
+    font-weight: bold;
+    border-left: var(--toc-background-color) 2px solid;
+    padding-left: 8px;
+    margin-bottom: 2px;
+}
+
+.toc-sticky {
+    border-top: 5px solid var(--primary-text-color);
+}
+
+main {
+    h1, .title-text {
+        border-left: var(--toc-background-color) 8px solid;
+    }
+    p {
+        margin: 10px;
+        margin-bottom: 4px;
+    }
+    li {
+        padding: 2px;
+    }
+    ul {
+        margin-top: 0px;
+    }
+    table {
+        th, td {
+            text-align: left;
+            border-bottom: 1px solid var(--primary-text-color);
+        }
+        tr:last-child { background: var(--toc-background-color)}
+    }
+}
+
+.text {
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: var(--primary-text-color);
+}
+  
