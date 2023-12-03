@@ -4,6 +4,8 @@
 {% endblock favicon %}
 
 {% block head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="/style.css" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRKQ9NBSLN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,9 +18,9 @@
 
 {% block hero %}
 <section class="text-center">
-    <!-- <h1 class="heading-text animate__animated animate__jackInTheBox" style="font-size: 50px">
-        Support local youth baseball in Avon Lake, OH
-    </h1> -->
+    <h1 class="heading-text animate__animated animate__jackInTheBox" style="font-size: 50px">
+        Let's play ball!
+    </h1>
     <h3 class="title-text">
         <b>Avon Lake Baseball Club's</b>  is a registered 501(c)(3). It's mission is to provide healthy 
         activity for children of Avon Lake using the ball field as a classroom to instill discipline, team work, 
@@ -27,10 +29,10 @@
     <div>
     </div>
 </section>
-<img class="hero-image" style="width: 45%" src="{{ get_url(path="imgs/al_round.png") }}">
+<img class="hero-image" style="width: 45%" src="{{ get_url(path="imgs/al-hero.png") }}">
 
 <div class="explore-more text"
-     onclick="document.getElementById('welcome-to-gradecoin').scrollIntoView({behavior: 'smooth'})">
+     onclick="document.getElementById('your-support-matters').scrollIntoView({behavior: 'smooth'})">
     ⇩ Learn How ⇩
 </div>
 {% endblock hero %}
@@ -41,6 +43,6 @@
 
 {% block footer %}
 <footer>
-    Built with ❤️ for Avon Lake and Youth Baseball
+    Built with ❤️ for Avon Lake, OH and Youth Baseball
 </footer>
 {% endblock footer %}
