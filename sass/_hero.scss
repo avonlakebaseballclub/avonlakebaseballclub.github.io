@@ -1,18 +1,35 @@
 .hero {
+    padding-top: 40px;
+
     section {
         padding: 0 80px;
     }
 
     .donate-button-container {
-        margin-top: 30px;
+        margin-top: 25px;
+    }
+
+    .heading-text {
+        font-size: 50px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
-    .hero section {
-        padding: 0 2rem;
-    }
+    .hero {
+        section {
+            padding: 0rem;
+        }
+
+        .heading-text {
+            font-size: 30px;
+            padding-bottom: 6px;
+        }
+
+        .title-text {
+            font-size: 20px;
+        }
+    } 
 
     .hero-image {
         display: none;
